@@ -81,7 +81,10 @@ nav a {
 
 nav a:hover {
   color: #f2c140;
+}
 
+nav a:active {
+  color: white;
 }
 
 .elon-img{
@@ -134,6 +137,9 @@ nav a:hover {
 
 .get-started:hover{
 	color:#fad6a2;
+}
+.get-started:active{
+  color:white;
 }
 
 
@@ -226,7 +232,6 @@ width: 450px;
   text-align: center;
   width: 400px;
   margin-top: 40px;
-  border-radius: 10px;
 }
 
 
