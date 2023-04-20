@@ -220,6 +220,15 @@ width: 450px;
   margin-bottom: 20px;
 }
 
+.elonmeme{
+  display: block;
+  margin:0 auto;
+  text-align: center;
+  width: 400px;
+  margin-top: 40px;
+  border-radius: 10px;
+}
+
 
 /* Buy */
 .buy {
@@ -299,9 +308,11 @@ footer {
 }
 
 footer p {
+  margin:0 auto;
   font-size: 12px;
   line-height: 1.5;
   margin-bottom: 5px;
+  width: 50%;
 }
 
 li{
@@ -309,6 +320,17 @@ li{
 }
 
 @media screen and (max-width: 600px){
+
+  .elonmeme{
+   display: block;
+  margin:0 auto;
+  text-align: center;
+  width: 300px;
+  margin-top: -40px;
+  margin-bottom: 40px;
+  border-radius: 10px;
+
+  }
 
 header {
     flex-direction: column;
@@ -430,8 +452,12 @@ header {
   }
 
   .buy-bbc{
-    margin-top: -20px;
-    margin-bottom: 20px;
+    margin-top: 0px;
+    margin-bottom: 40px;
+    font-size: 18px;
+  }
+  footer p{
+    width: 98%
   }
 
 }
