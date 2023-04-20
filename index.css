@@ -227,7 +227,7 @@ width: 450px;
 }
 
 .buy h2 {
-  font-size: 48px;
+  font-size: 59px;
   text-shadow: 1px 1px #000;
     display: flex;
   justify-content: center;
@@ -352,29 +352,10 @@ header {
     padding: 40px;
   }
 
-  .hero2 h1 {
-  color: white;
-  display: inline-block;
-  width: 80%;
-  margin-bottom: 40px;
-}
-
-.hero2 p {
-	display: inline-block;
-  width: 80%;
-	text-align: left;
-	font-family: 'Tahoma', sans-serif;
-  font-size: 22px;
-  line-height: 1.5;
-  color: white;
-  margin-bottom: 40px;
-
-}
-
 
   .hero2 h1 {
   	width: 100%;
-    font-size: 40px;
+    font-size: 35px;
     margin-bottom: 20px;
   }
 
@@ -392,7 +373,7 @@ header {
   .features h2 {
   	width: 85vw;
     font-size: 48px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
   }
 
   .features ul {
@@ -416,7 +397,7 @@ header {
 
   .buy h2 {
   	width: 100%;
-    font-size: 47px;
+    font-size: 40px;
   }
 
   .buy p {
