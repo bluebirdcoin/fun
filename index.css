@@ -30,6 +30,10 @@
   width: 100px;
 }
 
+.logo-mobile{
+  display: none;
+}
+
 
 /*
 Color codes
@@ -363,8 +367,13 @@ header {
     display: none;
   }
 
+  .logo-mobile{
+    display: block;
+    margin: 0 auto;
+    width: 100px;
+  }
+
   nav {
-    margin-top: -20px;
   }
   nav ul{
   	margin-top: 0px;
