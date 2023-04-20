@@ -64,6 +64,10 @@ header {
   padding: 20px;
 }
 
+nav {
+  margin-left: 100px;
+}
+
 nav ul {
 	margin-top: -20px;
   list-style: none;
@@ -80,7 +84,7 @@ nav a {
   font-size: 20px;
   color: white;
   margin-left: 40px;
-    text-shadow: 0.5px 0.5px black;
+  text-shadow: 0.5px 0.5px black;
 
 }
 
@@ -368,15 +372,18 @@ header {
   }
 
   .logo-mobile{
-    display: flex;
+    display: block;
     margin: 0 auto;
     width: 100px;
   }
 
   nav {
+  margin-left: 0px;
   }
+
   nav ul{
   	margin-top: 0px;
+    margin-left: 30px;
   }
 
   nav a {
