@@ -181,6 +181,10 @@ nav a:hover {
 width: 450px;
 }
 
+.coin-pic-mobile{
+  display:none;
+}
+
 /* Features */
 .features {
   color: black;
@@ -313,8 +317,16 @@ header {
   }
 
   .coin-pic{
-  	display: none;
-  }
+    display: none; 
+}
+
+.coin-pic-mobile{
+  display: flex;
+  width: 200px;
+  margin: 0 auto;
+  margin-top: -40px;
+  margin-bottom: 20px;
+}
 
   .logo {
     margin-right: 0;
@@ -329,8 +341,8 @@ header {
   }
 
   nav a {
-    font-size: 18px;
-    margin: 0 10px;
+    font-size: 22px;
+    margin: 0 20px;
   }
 
 	.hero {
@@ -367,26 +379,25 @@ header {
   }
 
    	.features {
-    padding: 30px;
+    padding: 0px;
   }
 
   .features h2 {
   	width: 85vw;
     font-size: 48px;
-    margin-bottom: 10px;
+    margin-top: 40px;
+    margin-bottom: -30px;
   }
 
   .features ul {
-  	padding: 20px;
+  	padding: 60px;
     font-size: 18px;
-    margin-bottom: 40px;
     width: 100%;
     text-align: left;
   }
 
   .features li {
     font-size: 18px;
-    margin-bottom: 20px;
     width: 100%;
     text-align: left;
   }
@@ -407,7 +418,7 @@ header {
 
   .buy li {
     font-size: 18px;
-    width: 100%;
+    width: 80%;
     text-align: left;
   }
 
@@ -417,5 +428,8 @@ header {
     margin-bottom: 30px;
   }
 
+  .buy-bbc{
+    margin-top: -20px;
+  }
 
 }
